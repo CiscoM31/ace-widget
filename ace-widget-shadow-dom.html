@@ -95,7 +95,6 @@ A behavior to allow ace-edit to work under ShadowDom. If the app is in ShadowDOM
         var Editor = {
           setTheme: EditorHook.prototype.setTheme
         }
-        var cacheThis = this;
         EditorHook.prototype.setTheme = function() {
           Editor.setTheme.apply(this, arguments);
         }
