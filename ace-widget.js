@@ -138,7 +138,9 @@ class AceWidget extends PolymerElement {
    * implementation of `importPath` will  return `import.meta.url`'s path.
    * More info on @Polymer/lib/mixins/element-mixin.js`
    */
-  static get importMeta() { return import.meta; } 
+//  static get importMeta() { return import.meta; }
+// used fixed path to workaround needing webpack babel 7 beta for import.meta support
+  static get importMeta() { return { url: '/node_modules/@granite-elements/ace-widget/'}; }
 
   connectedCallback() {
     super.connectedCallback();
