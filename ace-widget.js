@@ -17,8 +17,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 /* globals ace */
 /* eslint new-cap: ["error", { "capIsNewExceptions": ["AceWidgetShadowDom"] }] */
 
-import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
-
 import 'ace-builds/src-min-noconflict/ace.js';
 import 'ace-builds/src-min-noconflict/ext-language_tools.js';
 import 'ace-builds/src-min-noconflict/snippets/snippets.js';
