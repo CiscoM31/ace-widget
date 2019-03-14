@@ -21,6 +21,7 @@ import 'ace-builds/src-min-noconflict/ace.js';
 import 'ace-builds/src-min-noconflict/ext-language_tools.js';
 import 'ace-builds/src-min-noconflict/snippets/snippets.js';
 
+import { PolymerElement, html } from 'node_modules/@polymer/polymer/polymer-element';
 
 class AceWidget extends PolymerElement {
   static get template() {
